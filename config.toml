@@ -1,0 +1,15 @@
+baseURL = "https://ruyi.pages.dev/"
+languageCode = "en-us"
+title = "My Hugo Website"
+theme = "my-theme"
+
+[params]
+  author = "Your Name"
+  description = "A simple Hugo website"
+  dateFormat = "January 2, 2006"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
